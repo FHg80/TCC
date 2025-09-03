@@ -13,10 +13,14 @@ O artigo se concentra na questão dos reparos automatizados baseados em testes, 
 ## 2. Fichamento Bibliográfico 
 
 * _State-of-the-art_ (estado da arte) é o termo utilizado para se referir às ferramentas mais avançadas e eficazes que existem atualmente para o reparo automatizado de programas (página 1).
+
 * _Correctness_ é o termo utilizado pelo artigo para se referir ao quão correto é um reparo realizado por uma ferramenta de reparo automatizado de programas (página 1).
+
 * _Patch_ (retalho) é uma pequena modificação de código proposta pelas ferramentas de reparo automatizado de programas para tentar corrigir defeitos em _softwares_ (página 1).
-* _Efficiency_ (eficiência) conceito chave do artigo que se refere à qualidade e ao quão corretos são os retalhos propostos pelos algoritmos de reparos automatizados de programas. (página 1)
-* _Effectiveness_ (eficácia) é a capacidade de se atingir um objetivo, não importando como. Neste contexto se refere a quantidade de retalhos que uma ferramenta consegue produzir no menor tempo possível. (página 2)
+
+* _Efficiency_ (eficiência) conceito chave do artigo que se refere à qualidade e ao quão corretos são os retalhos propostos pelos algoritmos de reparos automatizados de programas (página 1).
+
+* _Effectiveness_ (eficácia) é a capacidade de se atingir um objetivo, não importando como. Neste contexto se refere a quantidade de retalhos que uma ferramenta consegue produzir no menor tempo possível (página 2).
 
 ## 3. Fichamento de Citações 
 
