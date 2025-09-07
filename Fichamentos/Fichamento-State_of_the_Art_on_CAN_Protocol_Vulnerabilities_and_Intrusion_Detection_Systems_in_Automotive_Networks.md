@@ -9,12 +9,19 @@ O artigo apresenta uma análise sobre a segurança em redes automotivas, focando
 ## 2. Fichamento Bibliográfico
 
 * _CAN (Controller Area Network) Protocol (protocolo de controlador de rede em área)_ é o principal protocolo de comunicação em veículos modernos, permitindo a comunicação em tempo real entre diferentes Unidades de Controle Eletrônico (página 1).
+
 * _ECU (Electronic Control Units - unidade de controle eletrônico)_ unidades de controle eletrônico conectadas à rede de um veículo que se comunicam através do protocolo CAN (página 1).
+
 * _Message Spoofing (falsificação de mensagem)_ um tipo de ataque onde o invasor injeta mensagens falsas na rede CAN para se passar por uma ECU legítima e controlar funções críticas do veículo (página 1).
+
 * _Eavesdropping (interceptação)_ ataque que explora a falta de criptografia das mensagens CAN, permitindo que um invasor leia, analise e realize engenharia reversa das comunicações da rede (página 2).
+
 * _DoS (Denial of Service) Attacks (ataques de negação de serviço)_ consiste em inundar a rede CAN com mensagens de alta prioridade para perturbar a comunicação normal entre as ECUs, podendo desabilitar sistemas de segurança (página 2).
+
 * _IDS (Intrusion Detection Systems - sistemas de detecção de intrusão)_ soluções de segurança que monitoram a atividade da rede para identificar potenciais violações e bloquear ataques antes que causem danos significativos (página 1).
+
 * _Signature-based detection (detecção baseada em assinatura)_ técnica de IDS que compara o tráfego da rede com um banco de dados de assinaturas de ataques conhecidos. É eficaz contra ameaças conhecidas, mas ineficaz contra ataques novos (página 2).
+
 * _Anomaly-based detection (detecção baseada em anomalia)_ técnica de IDS que estabelece um perfil de comportamento normal da rede e sinaliza qualquer desvio como uma possível ameaça. É mais eficaz contra ataques novos, mas pode gerar uma alta taxa de falsos positivos (página 2).
 
 ## 3. Fichamento de Citações

@@ -4,7 +4,8 @@ RAJNEESH; SHARMA, G. "Computational and combustion analysis of a dual fuel CI en
 
 ## 1. Fichamento de Conteúdo 
 
-Este estudo realiza uma análise computacional e experimental de um motor de ignição por compressão (CI) de duplo combustível, utilizando hidrogênio como combustível principal e diesel como combustível piloto para a ignição. O hidrogênio é fornecido por injeção no pórtico de admissão (PFI), enquanto o diesel é injetado diretamente na câmara de combustão. A pesquisa é motivada pela necessidade de encontrar combustíveis alternativos e ecológicos, como o hidrogênio, para reduzir as emissões de gases de efeito estufa da indústria automobilística e combater o aquecimento global. O estudo foca na análise da combustão em condições específicas: uma taxa de compressão de 18 e uma carga de motor de 12 kg. Os principais resultados observados sob estas condições foram uma pressão máxima no cilindro de 68,2 bar, uma temperatura média dos gases de 1310°C e uma duração de combustão de 16° de ângulo do virabrequim após o ponto morto superior (TDC), momento em que 90% do combustível foi queimado. O artigo conclui apresentando esses dados como os principais parâmetros de combustão do motor operando nesta configuração de duplo combustível.
+Este estudo realiza uma análise computacional e experimental de um motor de ignição por compressão (CI) de duplo combustível, utilizando hidrogênio como combustível principal e diesel como combustível piloto para a ignição. O hidrogênio é fornecido por injeção no pórtico de admissão (PFI), enquanto o diesel é injetado diretamente na câmara de combustão. A pesquisa é motivada pela necessidade de encontrar combustíveis alternativos e ecológicos, como o hidrogênio, para reduzir as emissões de gases de efeito estufa da indústria automobilística e combater o aquecimento global. O estudo foca na análise da combustão em condições específicas: uma taxa de compressão de 18 e uma carga de motor de 12 kg. O estudo coletou dados sobre: pressão dos cilindros, posição do virabrequim, temperatura do ar de exautão e do óleo, pressão atmosférica e umidade. Estes dados foram coletados respectivamente através de: um transdutor de pressão piezoelétrico, um codificador digital de eixo e termopares.
+Todos estes equipamentos foram conectados a uma NI USB-6210 e o _Enginesoft_ foi utilizado para o processamento e leitura dos dados.Os principais resultados observados sob estas condições foram uma pressão máxima no cilindro de 68,2 bar, uma temperatura média dos gases de 1310°C e uma duração de combustão de 16° de ângulo do virabrequim após o ponto morto superior (TDC), momento em que 90% do combustível foi queimado. O artigo conclui apresentando esses dados como os principais parâmetros de combustão do motor operando nesta configuração de duplo combustível.
 
 ## 2. Fichamento Bibliográfico
 
@@ -23,6 +24,20 @@ Este estudo realiza uma análise computacional e experimental de um motor de ign
 * _TDC (Top Dead Center - ponto morto superior)_ a posição mais alta que o pistão atinge dentro do cilindro, usada como referência para os eventos de combustão do motor (página 1).
 
 * _Ignition delay (atraso de ignição)_ o período de tempo entre o início da injeção de combustível e o início da combustão (página 1).
+
+* _Piezoelectric pressure transducer (transdutor de pressão piezoelétrico)_ é o equipamento utilizado para medir a pressão dos cilindros durante o experimento (página 2). 
+
+* _Digital shaft encoder (codificador digital de eixo)_ é o equipamento utilizado para registrar a posição do virabrequim do motor durante o experimento (página 2).
+
+* _K type thermocouple (termopares)_ é o equipamento utilizado para medir a temperatura do ar de exaustão e do óleo do motor durante o experimento (página 2).
+
+* _NI USB-6210_ é uma placa de aquisição de dados fabricada pela _National Instrumentation_ (página 2).
+
+* _Apex_ é a fabricante do transdutor de pressão piezoelétrico e do _Enginesoft_.
+
+* _Enginesoft_ é um software fabricado pela Apex para realizar a análise da combustão e o processamento e leitura dos dados. Foi responsável por calcular a média dos dados de 10 ciclos de trabalho do motor (página 2).
+
+
 
 ## 3. Fichamento de Citações 
 
